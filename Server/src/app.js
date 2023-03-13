@@ -1,11 +1,11 @@
 const express = require("express")
-const nodemon = require("nodemon")
+const routes = require("./routes/routes")
 
 require("dotenv").config()
 
 const app = express()
 
 app.use(express.json())
-app.use(nodemon)
+app.use(routes)
 
 module.exports = app
