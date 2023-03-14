@@ -1,6 +1,6 @@
 import axios from 'axios';
 const URL_API = 'http://localhost:5000/api/prompt'
-
+                //http://localhost:5000/api/prompt
 
 export const makeRequest = async (message) => {
   console.log(message)

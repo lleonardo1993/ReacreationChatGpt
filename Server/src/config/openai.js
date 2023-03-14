@@ -5,7 +5,7 @@ module.exports = class openai{
 
 	static configuration(){
 		const configuration = new Configuration({
-			apiKey: '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',
+			apiKey: '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',
 		})
 
 		return new OpenAIApi(configuration)

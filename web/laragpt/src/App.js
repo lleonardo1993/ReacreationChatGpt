@@ -55,6 +55,8 @@ function App() {
                 onChange={e =>setInput(e.target.value)}
               >
               </input>
+              <button type='submit'>click</button>
+              
             </form>
           </div>
       </section>
